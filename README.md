@@ -32,9 +32,30 @@
 ![image](https://github.com/user-attachments/assets/4838c017-55b9-4f08-9dbe-db20e66dd1ee)
 
 
-На этом работа была закончена.
+На этом работа на паре была закончена.
 
 08.02.2025
 
+Сегодня в процессе выполнения задач, я проверила наличие утилит wget (командой: sudo yum install wget) и curl (командой: sudo yum install curl).
 
+![image](https://github.com/user-attachments/assets/6148b8f5-1210-4129-b6c3-ed923854c462)
 
+Пишет, что обе утилиты уже установлены. 
+
+Загружаем файл репозиторий, с помощью команды sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
+
+![image](https://github.com/user-attachments/assets/c7123886-fbb9-45ff-a3e0-c050af12c5dd)
+
+Устанавливаем Docker, введя команду sudo yum install docker-ce docker-ce-cli containerd.io
+
+![image](https://github.com/user-attachments/assets/dbfa11bb-8ee1-4709-9172-5b718fcb1ddf)
+
+![image](https://github.com/user-attachments/assets/0ca81b4c-8baa-45ac-adf5-edbd831afc77)
+
+![image](https://github.com/user-attachments/assets/7dbe4edd-21dc-4d12-9ad7-a969c2720604)
+
+После завершения установки Docker, с помощью команды sudo systemctl enable docker --now, я запустила его и разрешила автозапуск.
+
+![image](https://github.com/user-attachments/assets/e2a803e9-ae2c-4e2d-a09f-e791b97e856b)
+
+На этом работа на паре была завершена!)
