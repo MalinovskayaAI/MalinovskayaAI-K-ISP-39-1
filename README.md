@@ -86,11 +86,11 @@
 
 `sudo yum install docker-ce docker-ce-cli containerd.io`
 
-![image](https://github.com/user-attachments/assets/dbfa11bb-8ee1-4709-9172-5b718fcb1ddf)
+![image](https://github.com/user-attachments/assets/39d819e6-5e7c-447e-a170-eaa5923bf2fd)
 
-![image](https://github.com/user-attachments/assets/0ca81b4c-8baa-45ac-adf5-edbd831afc77)
+![image](https://github.com/user-attachments/assets/7d52276f-9683-4bf4-a57b-b98ba0d30721)
 
-![image](https://github.com/user-attachments/assets/7dbe4edd-21dc-4d12-9ad7-a969c2720604)
+![image](https://github.com/user-attachments/assets/f392b387-babd-4e91-8ffa-d8e4764ce26e)
 
 После завершения установки Docker, с помощью команды 
 
