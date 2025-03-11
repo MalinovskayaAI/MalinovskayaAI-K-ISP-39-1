@@ -117,7 +117,7 @@
 
 ![image](https://github.com/user-attachments/assets/b91f4085-7a31-4c0e-83a0-134564581747)
 
-10. Можно скачать git прямо из командной строки
+10. Установка git с помощью командной строки
 
 `git clone https://github.com/skl256/grafana_stack_for_docker.git`
 
