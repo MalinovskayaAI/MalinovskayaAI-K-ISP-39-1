@@ -117,7 +117,17 @@
 
 ![image](https://github.com/user-attachments/assets/b91f4085-7a31-4c0e-83a0-134564581747)
 
+10. Можно скачать git прямо из командной строки
+
+`git clone https://github.com/skl256/grafana_stack_for_docker.git`
+
+! Выдает ошибку !
+
 ![image](https://github.com/user-attachments/assets/e1476a28-ff57-4a6d-924d-cda788df2f33)
+
+11. Другой вариант скачать git
+
+`sudo yum install git-core`
 
 ![image](https://github.com/user-attachments/assets/d1e3d913-fdc5-4af8-85d4-716024363c32)
 
