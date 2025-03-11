@@ -18,9 +18,9 @@
 
 Приступаем к работе с командной строкой:
 
-1. `sudo yum install wget`
+1. Устанавливаем утилиты `wget` на системы с пакетным менеджером `yum`
 
-• используется для установки утилиты `wget` на системах с пакетным менеджером `yum`.
+`sudo yum install wget`
 
 ![image](https://github.com/user-attachments/assets/3a9c6a29-ff6b-414a-852b-444825aacbe6)
 
@@ -92,20 +92,20 @@
 
 ![image](https://github.com/user-attachments/assets/70b15bcf-cce9-4cfb-842d-5bb3d18ccbe6)
 
-6. • Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней
+6. • Объявление переменной `COMVER`, полученной в результате `curl` запроса, хранящей в себе номер последней
 версии Docker Compose
 
 `COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)`
 
 ![image](https://github.com/user-attachments/assets/9d828263-256c-4d1d-af06-8bc2c6e2dda6)
 
-7. Cкачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог `/usr/bin`
+7. Cкачиваем скрипт `docker-compose` последней версии, используя объявленную ранее переменную и помещаем его в каталог `/usr/bin`
 
 `sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose`
 
 ![image](https://github.com/user-attachments/assets/fb905291-d83d-438b-b0fa-f87235ae5499)
 
-8. Предоставление прав на выполнение файла docker-compose
+8. Предоставление прав на выполнение файла `docker-compose`
 
 `sudo chmod +x /usr/bin/docker-compose`
 
@@ -117,7 +117,7 @@
 
 ![image](https://github.com/user-attachments/assets/b91f4085-7a31-4c0e-83a0-134564581747)
 
-10. Установка git с помощью командной строки
+10. Установка `git` с помощью командной строки
 
 `git clone https://github.com/skl256/grafana_stack_for_docker.git`
 
@@ -131,7 +131,7 @@
 
 ![image](https://github.com/user-attachments/assets/d1e3d913-fdc5-4af8-85d4-716024363c32)
 
-Установка git
+Установка `git`
 
 `git clone https://github.com/skl256/grafana_stack_for_docker.git`
 
@@ -143,7 +143,7 @@
 
 ![image](https://github.com/user-attachments/assets/212b0265-5d78-4d7b-a82c-9c69950dd438)
 
-12. Создаем полный путь /mnt/common_volume/swarm/grafana/config, включая все необходимые промежуточные каталоги, если они ещё не существуют
+12. Создаем полный путь `/mnt/common_volume/swarm/grafana/config`, включая все необходимые промежуточные каталоги, если они ещё не существуют
 
 `sudo mkdir -p /mnt/common_volume/swarm/grafana/config`
 
@@ -161,19 +161,19 @@
 
 ![image](https://github.com/user-attachments/assets/32a38916-0fa6-42cc-875e-83ccbe5620e4)
 
-15. Файл grafana.ini уже существует, команда обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+15. Файл `grafana.ini` уже существует, команда обновит его временные метки. Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
 
 `touch /mnt/common_volume/grafana/grafana-config/grafana.ini`
 
 ![image](https://github.com/user-attachments/assets/83eb2228-e617-4f5c-a4e8-68ccfcfbb402)
 
-16. Команда копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
+16. Команда копирует все файлы и подкаталоги из директории `config` в директорию `/mnt/common_volume/swarm/grafana/config/`
 
 `cp config/* /mnt/common_volume/swarm/grafana/config/`
 
 ![image](https://github.com/user-attachments/assets/56121bef-f7c8-4e1d-ac6d-21eb2db814cd)
 
-17. Команда переименовывает файл grafana.yaml в docker-compose.yaml. Ничего не покажет, но можно проверить при помощи команды `ls`
+17. Команда переименовывает файл `grafana.yaml` в `docker-compose.yaml.` Ничего не покажет, но можно проверить при помощи команды `ls`
 
 `mv grafana.yaml docker-compose.yaml`
 
@@ -193,6 +193,8 @@
 
 • Нажимаем на клавиатуре insert - чтобы внести изменения.
 
+После `services` нужно поставить `node-exporter`
+
 • Esc --> q! - Не сохранять изменения;
 
 • Ecs --> wq! - Сохранить изменения. 
@@ -201,7 +203,17 @@
 
 ![image](https://github.com/user-attachments/assets/73c3692b-149a-44b4-a904-39128b1de947)
  
-20. 
+20. С помощью команды открываем файл `prometheus.yaml` в текстовом редакторе `vi` с правами суперпользователя
+
+• Нас перекинет в текстовый редактор
+
+• Нажимаем на клавиатуре insert - чтобы внести изменения.
+
+ В строке `targets:` были исправлкены первые значения на `exporter:9100`
+
+• Esc --> q! - Не сохранять изменения;
+
+• Ecs --> wq! - Сохранить изменения. 
 
 ![image](https://github.com/user-attachments/assets/855d8322-c236-453b-9dcf-531b7b48d6ca)
 
