@@ -236,7 +236,9 @@ mv grafana.yaml docker-compose.yaml
 sudo docker compose up -d
 ```
 
-![image](https://github.com/user-attachments/assets/3c85685e-f84e-4974-99df-8710f89bf282)
+![image](https://github.com/user-attachments/assets/9c9e5482-3a50-46af-9175-f28c6b0b4622)
+
+![image](https://github.com/user-attachments/assets/38b0a263-ef2b-4178-9804-b908891231a4)
 
 19. Команда открывает файл `docker-compose.yaml` в текстовом редакторе `vi` с правами суперпользователя, что позволяет вам редактировать его содержимое
 
