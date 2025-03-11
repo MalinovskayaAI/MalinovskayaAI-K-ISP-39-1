@@ -201,11 +201,14 @@ sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/co
 
 ![image](https://github.com/user-attachments/assets/32a38916-0fa6-42cc-875e-83ccbe5620e4)
 
-15. Файл `grafana.ini` уже существует, команда обновит его временные метки. Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+15. Файл `grafana.ini` уже существует, команда обновит его временные метки.
+    Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
 
 ```bash
 touch /mnt/common_volume/grafana/grafana-config/grafana.ini
 ```
+
+![image](https://github.com/user-attachments/assets/2e10c426-519d-45f5-b953-98b10a386c0e)
 
 ![image](https://github.com/user-attachments/assets/83eb2228-e617-4f5c-a4e8-68ccfcfbb402)
 
@@ -214,6 +217,8 @@ touch /mnt/common_volume/grafana/grafana-config/grafana.ini
 ```bash
 cp config/* /mnt/common_volume/swarm/grafana/config/
 ```
+
+![image](https://github.com/user-attachments/assets/a137703f-179c-4a9d-9d92-70ccb989f9af)
 
 ![image](https://github.com/user-attachments/assets/56121bef-f7c8-4e1d-ac6d-21eb2db814cd)
 
