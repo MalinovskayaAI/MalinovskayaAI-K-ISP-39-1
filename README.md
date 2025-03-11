@@ -46,7 +46,11 @@
 
 ![image](https://github.com/user-attachments/assets/bdbad25c-4624-43f7-a750-135a0c317039)
 
-После введения команды, был открыт терминал где после строки
+После введения команды, был открыт терминал 
+
+• insert - исправит/внести изменения;
+
+где после строки
 
 `root ALL=(ALL) ALL`
 
@@ -54,21 +58,19 @@
 
 `malinovskayaai ALL=(ALL) ALL`
 
+• Esc --> q! - Не сохранять изменения;
+
+• Ecs --> wq! - Сохранить изменения. \/
+
 ![image](https://github.com/user-attachments/assets/e551fd7a-94d3-42f6-aaae-4ef93da2200d)
-
-Общий скриншот проделанной работы
-
-![image](https://github.com/user-attachments/assets/19373a02-df7e-47b7-b24b-790cfb44ea02)
 
 По завершению исправления ошибки, я перешла в новую вкладку терминала(командной строки) и снова ввела команду 
 
 `sudo yum install wget`
 
-чтобы проверить, установилась ли утилита wget.
+• чтобы проверить, установилась ли утилита wget.
 
 ![image](https://github.com/user-attachments/assets/f45debc5-6888-4115-b5e0-ce43a155b599)
-
-На этом работа на паре была закончена.
 
 
 08.02.2025
