@@ -48,7 +48,7 @@
 
 После введения команды, был открыт терминал 
 
-• insert - исправит/внести изменения.
+• insert - внести изменения.
 
 После строки `root ALL=(ALL) ALL`, было введено: 
 
@@ -185,19 +185,31 @@
 
 ![image](https://github.com/user-attachments/assets/3c85685e-f84e-4974-99df-8710f89bf282)
 
-другая пара
+19. Команда открывает файл `docker-compose.yaml` в текстовом редакторе `vi` с правами суперпользователя, что позволяет вам редактировать его содержимое
 
-1.
+`sudo vi docker-compose.yaml`
+
+• Нас перекинет в текстовый редактор
+
+• Нажимаем на клавиатуре insert - чтобы внести изменения.
+
+• Esc --> q! - Не сохранять изменения;
+
+• Ecs --> wq! - Сохранить изменения. 
+
 ![image](https://github.com/user-attachments/assets/c01128ce-fdda-467f-99e4-425790efe2b0)
 
 ![image](https://github.com/user-attachments/assets/73c3692b-149a-44b4-a904-39128b1de947)
  
-2. 
+20. 
+
 ![image](https://github.com/user-attachments/assets/855d8322-c236-453b-9dcf-531b7b48d6ca)
 
 ![image](https://github.com/user-attachments/assets/0053ba1f-6a15-4c4a-a8ee-a0591d655c54)
 
-3. 
+## Grafana
+
+
 
 
 
