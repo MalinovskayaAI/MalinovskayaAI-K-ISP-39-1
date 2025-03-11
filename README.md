@@ -183,15 +183,10 @@
 
 `sudo docker compose up -d`
 
-![image](https://github.com/user-attachments/assets/313c5462-0a6d-4379-830e-dc61d3c2836e)
-
-![image](https://github.com/user-attachments/assets/f993384a-2e34-411f-8830-4129bca68e86)
-
-..
 ![image](https://github.com/user-attachments/assets/3c85685e-f84e-4974-99df-8710f89bf282)
-..
 
 другая пара
+
 1.
 ![image](https://github.com/user-attachments/assets/c01128ce-fdda-467f-99e4-425790efe2b0)
 
