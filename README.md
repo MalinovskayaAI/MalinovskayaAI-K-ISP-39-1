@@ -80,7 +80,7 @@
 
 `sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo`
 
-![image](https://github.com/user-attachments/assets/c7123886-fbb9-45ff-a3e0-c050af12c5dd)
+![image](https://github.com/user-attachments/assets/56cbe0a8-47f1-4e5d-9670-645dfb953dfe)
 
 Устанавливаем Docker, введя команду 
 
