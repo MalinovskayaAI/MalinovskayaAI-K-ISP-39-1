@@ -59,8 +59,7 @@
 
 чтобы проверить, установилась ли утилита wget.
 
-![image](https://github.com/user-attachments/assets/4838c017-55b9-4f08-9dbe-db20e66dd1ee)
-
+![image](https://github.com/user-attachments/assets/f45debc5-6888-4115-b5e0-ce43a155b599)
 
 На этом работа на паре была закончена.
 
