@@ -169,7 +169,7 @@ git clone https://github.com/skl256/grafana_stack_for_docker.git
 
 ![image](https://github.com/user-attachments/assets/9fa49fb9-3803-4855-ac8d-26572f67ef6f)
 
-11. Переход в папку
+11. Переход в директорию
 
 ```bash
 cd grafana_stack_for_docker
