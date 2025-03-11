@@ -125,27 +125,63 @@
 
 ![image](https://github.com/user-attachments/assets/e1476a28-ff57-4a6d-924d-cda788df2f33)
 
-11. Другой вариант скачать git
+Устранкение ошибки.
 
 `sudo yum install git-core`
 
 ![image](https://github.com/user-attachments/assets/d1e3d913-fdc5-4af8-85d4-716024363c32)
 
+Установка git
+
+`git clone https://github.com/skl256/grafana_stack_for_docker.git`
+
 ![image](https://github.com/user-attachments/assets/9fa49fb9-3803-4855-ac8d-26572f67ef6f)
+
+11. Переход в папку
+
+`cd grafana_stack_for_docker`
 
 ![image](https://github.com/user-attachments/assets/212b0265-5d78-4d7b-a82c-9c69950dd438)
 
+12. Создаем полный путь /mnt/common_volume/swarm/grafana/config, включая все необходимые промежуточные каталоги, если они ещё не существуют
+
+`sudo mkdir -p /mnt/common_volume/swarm/grafana/config`
+
 ![image](https://github.com/user-attachments/assets/0aabe9e6-e636-40ca-9389-d67cd7bcb320)
+
+13. Создаём структуру каталогов для Grafana и связанных с ней компонентов, если они ещё не существуют
+
+`sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}`
 
 ![image](https://github.com/user-attachments/assets/b50cc857-5ace-4807-bddf-120caef494a3)
 
+14. Все файлы и каталоги в указанных директориях передаем в собственность текущему пользователю и его группе
+
+`sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana}`
+
 ![image](https://github.com/user-attachments/assets/32a38916-0fa6-42cc-875e-83ccbe5620e4)
+
+15. Файл grafana.ini уже существует, команда обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+
+`touch /mnt/common_volume/grafana/grafana-config/grafana.ini`
 
 ![image](https://github.com/user-attachments/assets/83eb2228-e617-4f5c-a4e8-68ccfcfbb402)
 
+16. Команда копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/
+
+`cp config/* /mnt/common_volume/swarm/grafana/config/`
+
 ![image](https://github.com/user-attachments/assets/56121bef-f7c8-4e1d-ac6d-21eb2db814cd)
 
+17. Команда переименовывает файл grafana.yaml в docker-compose.yaml. Ничего не покажет, но можно проверить при помощи команды `ls`
+
+`mv grafana.yaml docker-compose.yaml`
+
 ![image](https://github.com/user-attachments/assets/c9a4404d-21ce-496b-af8d-3a0c19a6216f)
+
+18. Команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла `docker-compose.yml`, с правами суперпользователя.
+
+`sudo docker compose up -d`
 
 ![image](https://github.com/user-attachments/assets/313c5462-0a6d-4379-830e-dc61d3c2836e)
 
