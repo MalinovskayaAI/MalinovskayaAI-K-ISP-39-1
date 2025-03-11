@@ -302,18 +302,47 @@ sudo docker compose down
 
 ##Работа с репозиторием и его файлами
 
-1. Клонирование репозитория Docker-Linux-8.2.25 с GitHub
+1. Клонирование репозитория MalinovskayaAI-K-ISP-39-1 с GitHub
 
 ```bash
-sudo git clone https://github.com/maniaa414/Docker-Linux-8.2.25.git
+sudo git clone https://github.com/MalinovskayaAI/MalinovskayaAI-K-ISP-39-1.git
 ```
 
+![image](https://github.com/user-attachments/assets/75ae2097-d1a4-4215-a60c-5b5d64e8d6b2)
+
+2. Переход в каталог MalinovskayaAI-K-ISP-39-1 и просмотр файлов
+
+```bash
+cd MalinovskayaAI-K-ISP-39-1
+ls
+```
+
+![image](https://github.com/user-attachments/assets/f4138a08-31d4-4360-b0b7-98d17374db98)
+
+4. Открытие файла README.md с правами sudo.
+
+```bash
+sudo rm README.md
+ls
+```
+
+![image](https://github.com/user-attachments/assets/d17f25d3-bc35-4a1d-9a2a-684e306e48fd)
+
+5. Просмотр/вывод полного пути текущего каталога
+
+```bash
+pwd
+```
+
+![image](https://github.com/user-attachments/assets/55908c3e-be55-4db1-a174-65088edc99aa)
+
+6. Копирование всех файлов из /home/malinovskayaai/MalinovskayaAI-K-ISP-39-1/(prometeus.yaml, docker-compose.yaml(изменяем основной файл в файл с Github)) в /home/malinovskayaai/grafana_stack_for_docker
+
+```bash
+cp /home/malinovskayaai/MalinovskayaAI-K-ISP-39-1/* /home/malinovskayaai/grafana_stack_for_docker
+```
+
+![image](https://github.com/user-attachments/assets/847aaffe-293a-42fa-8445-af9871d8dc1a)
+
+
 ## Grafana
-
-
-
-
-
-
-
-
