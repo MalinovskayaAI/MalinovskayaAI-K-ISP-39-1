@@ -276,6 +276,38 @@ sudo vi docker-compose.yaml
 
 ![image](https://github.com/user-attachments/assets/0053ba1f-6a15-4c4a-a8ee-a0591d655c54)
 
+21. Можем создать и запустить контейнеры в фоновом режиме, если они не запущены
+
+```bash
+sudo docker compose up -d
+```
+
+![image](https://github.com/user-attachments/assets/e67eadb7-52a6-4fcb-812d-e6b590b2f8ca)
+
+22. Можем остановить запущенные контейнеры без их удаления
+
+```bash
+sudo docker compose stop
+```
+
+![image](https://github.com/user-attachments/assets/9f07e2b5-5b05-4e74-83aa-e1dc602776f0)
+
+23. Остановка и удаление контейнеров, сетей, томов и других ресурсов, созданных с помощью Docker Compose
+
+```bash
+sudo docker compose down
+```
+
+![image](https://github.com/user-attachments/assets/94eaca40-aa3e-44fe-9350-cd51fe554adc)
+
+##Работа с репозиторием и его файлами
+
+1. Клонирование репозитория Docker-Linux-8.2.25 с GitHub
+
+```bash
+sudo git clone https://github.com/maniaa414/Docker-Linux-8.2.25.git
+```
+
 ## Grafana
 
 
