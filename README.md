@@ -92,13 +92,28 @@
 
 ![image](https://github.com/user-attachments/assets/70b15bcf-cce9-4cfb-842d-5bb3d18ccbe6)
 
-15.02.2025
+6. • Объявление переменной COMVER, полученной в результате curl запроса, хранящей в себе номер последней
+версии Docker Compose
+
+`COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)`
 
 ![image](https://github.com/user-attachments/assets/9d828263-256c-4d1d-af06-8bc2c6e2dda6)
 
+7. Cкачиваем скрипт docker-compose последней версии, используя объявленную ранее переменную и помещаем его в каталог `/usr/bin`
+
+`sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose`
+
 ![image](https://github.com/user-attachments/assets/fb905291-d83d-438b-b0fa-f87235ae5499)
 
+8. Предоставление прав на выполнение файла docker-compose
+
+`sudo chmod +x /usr/bin/docker-compose`
+
 ![image](https://github.com/user-attachments/assets/aaadde65-6ecb-42a2-8a16-3d36541d4cbb)
+
+9. Проверка установленной версии Docker Compose
+
+`docker-compose --version`
 
 ![image](https://github.com/user-attachments/assets/b91f4085-7a31-4c0e-83a0-134564581747)
 
