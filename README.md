@@ -101,3 +101,21 @@
 ![image](https://github.com/user-attachments/assets/70b15bcf-cce9-4cfb-842d-5bb3d18ccbe6)
 
 На этом работа на паре была завершена!)
+
+15.02.2025
+
+![image](https://github.com/user-attachments/assets/9d828263-256c-4d1d-af06-8bc2c6e2dda6)
+
+![image](https://github.com/user-attachments/assets/fb905291-d83d-438b-b0fa-f87235ae5499)
+
+![image](https://github.com/user-attachments/assets/aaadde65-6ecb-42a2-8a16-3d36541d4cbb)
+
+![image](https://github.com/user-attachments/assets/b91f4085-7a31-4c0e-83a0-134564581747)
+
+![image](https://github.com/user-attachments/assets/e1476a28-ff57-4a6d-924d-cda788df2f33)
+
+![image](https://github.com/user-attachments/assets/d1e3d913-fdc5-4af8-85d4-716024363c32)
+
+![image](https://github.com/user-attachments/assets/9fa49fb9-3803-4855-ac8d-26572f67ef6f)
+
+
