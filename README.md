@@ -20,7 +20,9 @@
 
 1. Устанавливаем утилиты `wget` на системы с пакетным менеджером `yum`
 
-`sudo yum install wget`
+```bash
+sudo yum install wget
+```
 
 ![image](https://github.com/user-attachments/assets/3a9c6a29-ff6b-414a-852b-444825aacbe6)
 
