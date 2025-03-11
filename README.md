@@ -10,13 +10,14 @@
 
 `sudo yum install wget`
 
-которая используется для установки утилиты `wget` на системах с пакетным менеджером yum.
+которая используется для установки утилиты `wget` на системах с пакетным менеджером `yum`.
 
-![image](https://github.com/user-attachments/assets/26bac54d-9511-4027-a77c-67b359345ea7)
+![image](https://github.com/user-attachments/assets/3a9c6a29-ff6b-414a-852b-444825aacbe6)
+
 
 При выполнении команды возникла ошибка: 
 
-`malinovskaya2804 is not in the sudoers file. This incident will be reported.`
+`malinovskayaai is not in the sudoers file. This incident will be reported.`
 
 Это указывало на то, что текущий пользователь не имеет прав на выполнение команд с использованием `sudo`.
 
@@ -26,20 +27,30 @@
 
 чтобы переключиться на учетную запись суперпользователя (root).
 
-![image](https://github.com/user-attachments/assets/fa7e5471-e487-4a2e-b411-17c2270cdd96)
+![image](https://github.com/user-attachments/assets/d50c8b2a-52ac-4858-ac4e-ea7312252d00)
 
 
 После этого был открыт файл 
 
-`/etc/sudoers с помощью текстового редактора vi`
+`nano /etc/sudoers`
 
 чтобы добавить необходимые права для пользователя.
 
-![image](https://github.com/user-attachments/assets/0130a850-cbef-4f7e-b35b-37ad44089f35)
+![image](https://github.com/user-attachments/assets/bdbad25c-4624-43f7-a750-135a0c317039)
+
+После введения команды, был открыт терминал где после строки 
+`root ALL=(ALL) ALL`
+
+Было введено 
+
+`malinovskayaai ALL=(ALL) ALL`
+
+![image](https://github.com/user-attachments/assets/e551fd7a-94d3-42f6-aaae-4ef93da2200d)
+
 
 Общий скриншот проделанной работы
 
-![image](https://github.com/user-attachments/assets/2bec009a-aaaa-4bbc-8159-25341c10592e)
+![image](https://github.com/user-attachments/assets/19373a02-df7e-47b7-b24b-790cfb44ea02)
 
 
 По завершению исправления ошибки, я перешла в новую вкладку терминала(командной строки) и снова ввела команду 
