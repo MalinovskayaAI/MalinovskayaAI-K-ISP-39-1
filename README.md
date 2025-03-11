@@ -336,13 +336,11 @@ pwd
 
 ![image](https://github.com/user-attachments/assets/55908c3e-be55-4db1-a174-65088edc99aa)
 
-6. Копирование всех файлов из /home/malinovskayaai/MalinovskayaAI-K-ISP-39-1/(prometeus.yaml, docker-compose.yaml(изменяем основной файл в файл с Github)) в /home/malinovskayaai/grafana_stack_for_docker
+6. Просмотр проделанной работы
 
-```bash
-cp /home/malinovskayaai/MalinovskayaAI-K-ISP-39-1/* /home/malinovskayaai/grafana_stack_for_docker
-```
+![image](https://github.com/user-attachments/assets/fb923dd6-90b8-4cec-93e7-f26c7e663400)
 
-![image](https://github.com/user-attachments/assets/847aaffe-293a-42fa-8445-af9871d8dc1a)
+![image](https://github.com/user-attachments/assets/16c7dacc-c47b-4c8f-a4e1-6d84a6cccfbe)
 
 
 ## Grafana
