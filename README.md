@@ -1,6 +1,17 @@
-25.01.2025
+# Malinovskaya Arina K-ISP-39-1
 
-В ходе проделанной работы за всю пару, с горем пополам, была создана виртуальная машина.
+Создана виртуальная машина - Linux;
+
+Оперативная память - 2048ж
+
+Процессор(ы) - 2;
+
+Размер диска 20,00 Гб.
+
+При установке необходимо создать учетную запись (задать логин и пароль), а также выбрать английский язык для виртуальной машины.
+
+![image](https://github.com/user-attachments/assets/4c4aceb6-1b74-4c28-a651-c04dbbc80976)
+
 
 01.02.2025
 
@@ -135,3 +146,26 @@
 ![image](https://github.com/user-attachments/assets/313c5462-0a6d-4379-830e-dc61d3c2836e)
 
 ![image](https://github.com/user-attachments/assets/f993384a-2e34-411f-8830-4129bca68e86)
+
+..
+![image](https://github.com/user-attachments/assets/3c85685e-f84e-4974-99df-8710f89bf282)
+..
+
+другая пара
+1.
+![image](https://github.com/user-attachments/assets/c01128ce-fdda-467f-99e4-425790efe2b0)
+
+![image](https://github.com/user-attachments/assets/73c3692b-149a-44b4-a904-39128b1de947)
+ 
+2. 
+![image](https://github.com/user-attachments/assets/855d8322-c236-453b-9dcf-531b7b48d6ca)
+
+![image](https://github.com/user-attachments/assets/0053ba1f-6a15-4c4a-a8ee-a0591d655c54)
+
+3. 
+
+
+
+
+
+
