@@ -72,9 +72,9 @@
 
 `curl командой: sudo yum install curl`
 
-![image](https://github.com/user-attachments/assets/6148b8f5-1210-4129-b6c3-ed923854c462)
+![image](https://github.com/user-attachments/assets/f4926c5f-6427-4b98-afde-acd3863aea71)
 
-Пишет, что обе утилиты уже установлены. 
+Видим, что обе утилиты уже установлены. 
 
 Загружаем файл репозиторий, с помощью команды 
 
