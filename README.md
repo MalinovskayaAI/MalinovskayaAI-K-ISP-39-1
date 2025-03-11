@@ -48,50 +48,35 @@
 
 После введения команды, был открыт терминал 
 
-• insert - исправит/внести изменения;
+• insert - исправит/внести изменения.
 
-где после строки
-
-`root ALL=(ALL) ALL`
-
-Было введено 
+После строки `root ALL=(ALL) ALL`, было введено: 
 
 `malinovskayaai ALL=(ALL) ALL`
 
 • Esc --> q! - Не сохранять изменения;
 
-• Ecs --> wq! - Сохранить изменения. \/
+• Ecs --> wq! - Сохранить изменения. 
 
 ![image](https://github.com/user-attachments/assets/e551fd7a-94d3-42f6-aaae-4ef93da2200d)
 
-По завершению исправления ошибки, я перешла в новую вкладку терминала(командной строки) и снова ввела команду 
+2. Проверка наличия утилит `wget` и `curl`
 
 `sudo yum install wget`
 
-• чтобы проверить, установилась ли утилита wget.
-
-![image](https://github.com/user-attachments/assets/f45debc5-6888-4115-b5e0-ce43a155b599)
-
-
-08.02.2025
-
-Сегодня в процессе выполнения задач, я проверила наличие утилит 
-
-`wget командой: sudo yum install wget`
-
-`curl командой: sudo yum install curl`
+`sudo yum install curl`
 
 ![image](https://github.com/user-attachments/assets/f4926c5f-6427-4b98-afde-acd3863aea71)
 
-Видим, что обе утилиты уже установлены. 
+• Видим, что обе утилиты уже установлены. 
 
-2. Загружаем файл репозиторий, с помощью команды 
+3. Загружаем файл репозиторий
 
 `sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo`
 
 ![image](https://github.com/user-attachments/assets/56cbe0a8-47f1-4e5d-9670-645dfb953dfe)
 
-Устанавливаем Docker, введя команду 
+4. Устанавливаем Docker
 
 `sudo yum install docker-ce docker-ce-cli containerd.io`
 
@@ -101,15 +86,11 @@
 
 ![image](https://github.com/user-attachments/assets/f392b387-babd-4e91-8ffa-d8e4764ce26e)
 
-После завершения установки Docker, с помощью команды 
+5. Запускаем его и разрешаем автозапуск
 
 `sudo systemctl enable docker --now`
 
-я запустила его и разрешила автозапуск.
-
 ![image](https://github.com/user-attachments/assets/70b15bcf-cce9-4cfb-842d-5bb3d18ccbe6)
-
-На этом работа на паре была завершена!)
 
 15.02.2025
 
