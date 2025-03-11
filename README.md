@@ -98,6 +98,6 @@
 
 я запустила его и разрешила автозапуск.
 
-![image](https://github.com/user-attachments/assets/e2a803e9-ae2c-4e2d-a09f-e791b97e856b)
+![image](https://github.com/user-attachments/assets/70b15bcf-cce9-4cfb-842d-5bb3d18ccbe6)
 
 На этом работа на паре была завершена!)
