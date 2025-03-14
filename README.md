@@ -344,3 +344,45 @@ pwd
 
 
 ## Grafana
+
+Сайт/вход
+
+![image](https://github.com/user-attachments/assets/fc85c707-78bc-49a8-a067-b0902bf95c47)
+
+Создание новой доски 
+
+![image](https://github.com/user-attachments/assets/d10c283e-060e-419f-8eee-286d800473e7)
+
+Выбор прометеуса
+
+![image](https://github.com/user-attachments/assets/76bf2b6e-82c4-4cca-8edf-50344a8b0e37)
+
+конекшн url
+
+![image](https://github.com/user-attachments/assets/6e6804c3-81b1-4421-a9af-8d1d8128b07c)
+
+аунтификация
+
+![image](https://github.com/user-attachments/assets/85293a69-7bcb-4791-97ae-1273216cefc1)
+
+зеленая галочка
+
+![image](https://github.com/user-attachments/assets/4f104711-dc60-4027-863b-ad2ec4c65191)
+
+общий скрин
+
+![image](https://github.com/user-attachments/assets/032f633d-fa64-4212-b7df-4ff657963f18)
+
+диаграммы
+
+![image](https://github.com/user-attachments/assets/e98d518a-9cf6-4527-b032-a496c059f465)
+
+
+
+
+
+
+
+
+
+
