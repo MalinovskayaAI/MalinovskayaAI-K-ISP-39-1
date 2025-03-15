@@ -1,5 +1,7 @@
 # Malinovskaya Arina K-ISP-39-1
 
+![image](https://github.com/user-attachments/assets/88f68074-6aa9-4c4a-993f-e45e6a93ba71)
+
 Создана виртуальная машина - Linux;
 
 Оперативная память - 8000;
