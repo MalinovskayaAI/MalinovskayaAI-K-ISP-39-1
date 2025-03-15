@@ -379,6 +379,14 @@ pwd
 
 ![image](https://github.com/user-attachments/assets/e98d518a-9cf6-4527-b032-a496c059f465)
 
+15.03
+
+[Порт: 8428](http://localhost:8428/)
+
+[Порт: 9090](http://localhost:9090/)
+
+
+
 
 
 
