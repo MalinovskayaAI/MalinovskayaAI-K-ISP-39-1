@@ -412,9 +412,35 @@ http://victoriametrics:8428/
 
 ![image](https://github.com/user-attachments/assets/047de7eb-2e01-4559-8134-726447244320)
 
-![image](https://github.com/user-attachments/assets/d334f035-2184-409d-81f4-ee14c6958886)
+Dыбираем и смоотрим результат
 
+![image](https://github.com/user-attachments/assets/4f81e05a-0e30-44c4-84cf-f114913764ce)
 
+Далее открываем терминал, переходим в папку `grafana_stack_for_docker` и вводим команду
+
+```bash
+echo -e "# TYPE light_metric1 gauge\nlight_metric1 0" | curl --data-binary @- http://localhost:8428/api/v1/import/prometheus
+```
+
+Потом переходим в браузер на первую вкладку Victoria Metrics и выбираем `vmui - Web UI`
+
+![image](https://github.com/user-attachments/assets/715b7728-417a-43a1-8671-4f18719db900)
+
+Вводим в строку 
+
+```bash
+light_metric1
+```
+
+Видим результат
+
+![image](https://github.com/user-attachments/assets/473b3f6f-48d3-43c2-b2d6-ce33d1b87382)
+
+Переходим обратно в `grafana` и вставляем в строку `light_metric1` и нажимаем `Run queries`
+
+![image](https://github.com/user-attachments/assets/d6fd83ac-bd2d-437e-9c0e-445af553797a)
+
+![image](https://github.com/user-attachments/assets/a5c9562e-2985-429f-a04d-13eca49c20bc)
 
 
 
