@@ -302,7 +302,7 @@ sudo docker compose down
 
 ![image](https://github.com/user-attachments/assets/94eaca40-aa3e-44fe-9350-cd51fe554adc)
 
-##Работа с репозиторием и его файлами
+## Работа с репозиторием и его файлами
 
 1. Клонирование репозитория MalinovskayaAI-K-ISP-39-1 с GitHub
 
@@ -379,13 +379,22 @@ pwd
 
 ![image](https://github.com/user-attachments/assets/e98d518a-9cf6-4527-b032-a496c059f465)
 
-15.03 ViktoriaMetric
 
-[Порт: 8428](http://localhost:8428/)
+## ViktoriaMetric
 
-[Порт: 9090](http://localhost:9090/)
+```bash
+http://localhost:8428/
+```
 
+![image](https://github.com/user-attachments/assets/aebe7c65-ecf7-4bab-9266-22e83399e082)
 
+```bash
+http://localhost:9090/
+```
+
+![image](https://github.com/user-attachments/assets/78a209fe-c678-4cd4-b6e5-dae3ee367587)
+
+Заходим на сайт `Grafana` и создаем ``
 
 
 
