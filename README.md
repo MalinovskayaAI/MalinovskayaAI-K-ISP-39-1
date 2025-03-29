@@ -380,7 +380,9 @@ pwd
 ![image](https://github.com/user-attachments/assets/e98d518a-9cf6-4527-b032-a496c059f465)
 
 
-## ViktoriaMetric
+## ViktoriaMetrics
+
+Далее пойдет работа с Victoria Metrics переходим на сайт
 
 ```bash
 http://localhost:8428/
@@ -388,16 +390,29 @@ http://localhost:8428/
 
 ![image](https://github.com/user-attachments/assets/aebe7c65-ecf7-4bab-9266-22e83399e082)
 
+Такеже в соседней вкладке открываем сайт
+
 ```bash
 http://localhost:9090/
 ```
 
 ![image](https://github.com/user-attachments/assets/78a209fe-c678-4cd4-b6e5-dae3ee367587)
 
-Заходим на сайт `Grafana` и создаем ``
+Заходим на сайт `Grafana` и создаем Victoria Metrics также как и Prometheus только меняем Name на `Viktoria`, URl на `http://victoriametrics:8428` и ставим `No autentification`.
 
+```bash
+http://victoriametrics:8428/
+```
 
+Сохраняем.
 
+![image](https://github.com/user-attachments/assets/cf1b4d8f-7562-486a-ad8b-b41c44b35ffb)
+
+Проверяем работу и выбираем имя которое мы указали `Viktoria`
+
+![image](https://github.com/user-attachments/assets/047de7eb-2e01-4559-8134-726447244320)
+
+![image](https://github.com/user-attachments/assets/d334f035-2184-409d-81f4-ee14c6958886)
 
 
 
