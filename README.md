@@ -349,9 +349,17 @@ pwd
 
 Сайт/вход
 
+Переходим на работу с `Grafana` переходим на сайт `localhost:3000`.
+
+Пользователь и пароль: `admin`.
+
+Код графаны `1816`.
+
+Код прометеуса: `http://prometheus:9090`.
+
 ![image](https://github.com/user-attachments/assets/fc85c707-78bc-49a8-a067-b0902bf95c47)
 
-Создание новой доски 
+Создание новой `New Dashboard` 
 
 ![image](https://github.com/user-attachments/assets/d10c283e-060e-419f-8eee-286d800473e7)
 
