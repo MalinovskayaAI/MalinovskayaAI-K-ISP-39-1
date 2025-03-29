@@ -379,7 +379,7 @@ pwd
 
 ![image](https://github.com/user-attachments/assets/e98d518a-9cf6-4527-b032-a496c059f465)
 
-15.03
+15.03 ViktoriaMetric
 
 [Порт: 8428](http://localhost:8428/)
 
